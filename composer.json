@@ -1,0 +1,48 @@
+{
+    "name": "ffi/preprocessor-contracts",
+    "type": "library",
+    "description": "C preprocessor interfaces / compatibility library",
+    "license": "MIT",
+    "keywords": ["ffi", "parser", "compiler", "c", "headers", "preprocessor", "contracts"],
+    "support": {
+        "source": "https://github.com/php-ffi/preprocessor-contracts",
+        "issues": "https://github.com/php-ffi/preprocessor-contracts/issues",
+        "docs": "https://github.com/php-ffi/preprocessor-contracts/blob/master/README.md"
+    },
+    "authors": [
+        {
+            "name": "Nesmeyanov Kirill",
+            "email": "nesk@xakep.ru",
+            "homepage": "https://serafimarts.ru",
+            "role": "maintainer"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "phplrt/source-contracts": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "FFI\\Contracts\\Preprocessor\\": "src"
+        }
+    },
+    "require-dev": {
+        "vimeo/psalm": "^4.21"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "composer/package-versions-deprecated": true
+        }
+    },
+    "scripts": {
+        "psalm": "psalm --no-cache"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
