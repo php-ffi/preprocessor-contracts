@@ -27,7 +27,8 @@
         }
     },
     "require-dev": {
-        "vimeo/psalm": "^4.21"
+        "vimeo/psalm": "^4.21",
+        "squizlabs/php_codesniffer": "^3.6"
     },
     "config": {
         "sort-packages": true,
@@ -36,7 +37,10 @@
         }
     },
     "scripts": {
-        "psalm": "psalm --no-cache"
+        "test": [
+            "psalm --no-cache",
+            "phpcs --standard=phpcs.xml"
+        ]
     },
     "extra": {
         "branch-alias": {
