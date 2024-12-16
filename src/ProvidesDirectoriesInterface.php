@@ -15,8 +15,5 @@ use FFI\Contracts\Preprocessor\Io\Directory\RepositoryInterface;
 
 interface ProvidesDirectoriesInterface
 {
-    /**
-     * @return RepositoryInterface
-     */
     public function getDirectories(): RepositoryInterface;
 }

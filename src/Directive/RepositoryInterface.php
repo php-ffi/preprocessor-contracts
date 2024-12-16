@@ -18,13 +18,11 @@ interface RepositoryInterface extends \Countable, \Traversable
 {
     /**
      * @param non-empty-string $directive
-     * @return bool
      */
     public function defined(string $directive): bool;
 
     /**
      * @param non-empty-string $directive
-     * @return DirectiveInterface|null
      */
     public function find(string $directive): ?DirectiveInterface;
 }

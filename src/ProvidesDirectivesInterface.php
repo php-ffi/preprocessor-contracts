@@ -15,8 +15,5 @@ use FFI\Contracts\Preprocessor\Directive\RepositoryInterface;
 
 interface ProvidesDirectivesInterface
 {
-    /**
-     * @return RepositoryInterface
-     */
     public function getDirectives(): RepositoryInterface;
 }

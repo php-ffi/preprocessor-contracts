@@ -21,8 +21,5 @@ interface DirectiveInterface
      */
     public const DEFAULT_VALUE = '';
 
-    /**
-     * @return string
-     */
     public function __invoke(): string;
 }

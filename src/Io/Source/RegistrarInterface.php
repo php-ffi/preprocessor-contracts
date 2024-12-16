@@ -22,15 +22,12 @@ interface RegistrarInterface
      * @psalm-taint-sink file $file
      * @param non-empty-string $file
      * @param SourceEntry $source
-     * @param bool $overwrite
-     * @return bool
      */
     public function add(string $file, $source, bool $overwrite = false): bool;
 
     /**
      * @psalm-taint-sink file $file
      * @param non-empty-string $file
-     * @return bool
      */
     public function remove(string $file): bool;
 }

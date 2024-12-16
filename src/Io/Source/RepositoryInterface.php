@@ -16,6 +16,4 @@ use Phplrt\Contracts\Source\ReadableInterface;
 /**
  * @template-extends \Traversable<non-empty-string, ReadableInterface>
  */
-interface RepositoryInterface extends \Countable, \Traversable
-{
-}
+interface RepositoryInterface extends \Countable, \Traversable {}

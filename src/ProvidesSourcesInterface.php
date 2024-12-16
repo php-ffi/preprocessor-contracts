@@ -15,8 +15,5 @@ use FFI\Contracts\Preprocessor\Io\Source\RepositoryInterface;
 
 interface ProvidesSourcesInterface
 {
-    /**
-     * @return RepositoryInterface
-     */
     public function getSources(): RepositoryInterface;
 }

@@ -16,8 +16,6 @@ use FFI\Contracts\Preprocessor\Exception\DirectiveExecutionExceptionInterface;
 interface FunctionLikeDirectiveInterface extends DirectiveInterface
 {
     /**
-     * @param string ...$args
-     * @return string
      * @throws DirectiveExecutionExceptionInterface
      */
     public function __invoke(string ...$args): string;

@@ -14,6 +14,4 @@ namespace FFI\Contracts\Preprocessor\Io\Directory;
 /**
  * @template-extends \Traversable<array-key, non-empty-string>
  */
-interface RepositoryInterface extends \Countable, \Traversable
-{
-}
+interface RepositoryInterface extends \Countable, \Traversable {}
