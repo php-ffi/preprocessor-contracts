@@ -33,6 +33,11 @@
         "phpstan/phpstan-deprecation-rules": "^2.0",
         "phpstan/phpstan-strict-rules": "^2.0"
     },
+    "autoload-dev": {
+        "psr-4": {
+            "FFI\\Contracts\\Preprocessor\\Tests\\": "tests"
+        }
+    },
     "config": {
         "optimize-autoloader": true,
         "preferred-install": {
