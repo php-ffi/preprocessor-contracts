@@ -10,6 +10,7 @@ interface RegistrarInterface
 {
     /**
      * @param non-empty-string $directive
+     * @phpstan-param mixed $value
      *
      * @throws DirectiveDefinitionExceptionInterface
      */
